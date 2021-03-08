@@ -15,7 +15,8 @@ const BlogPage = ({ data }) => {
       <UnorderedList className="list-locations">
         {posts.map(post => (
           <ListItem key={post.node.id}>
-            <Link as={GatsbyLink} to={post.node.title}>{post.node.title}</Link>
+            {/* <Link as={GatsbyLink} to={post.node.title}>{post.node.title}</Link> */}
+            <Text as="h3">{parse(post.node.title)}</Text>
             <Text as="p">{parse(post.node.content)}</Text>
           </ListItem>
         ))}

@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
                     <Text as="h1">AudioC0RE</Text>
 
                     <StaticImage
-                        src="../images/headphones-smallo.gif"
+                        src="../images/headphones-small.png"
                         alt="Headaphone"
                         placeholder="blurred"
                         layout="fixed"
