@@ -1,0 +1,42 @@
+body {margin:0; padding:0; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+.container {max-width:1200px; min-height: 100vh; margin:0 auto;  display: flex; flex-direction: column;}
+
+.container main {flex:1;  }
+
+header {display: flex; flex-direction: column;}
+header a {display: block;}
+.link-header {display: flex; border:1px solid #333;}
+
+h1 {margin:0; background-color: #333; color:#ddd; padding: 1rem;}
+main > h2 {font-size:2rem; font-weight: bold; border-bottom:1px solid #ddc; color:#886;}
+main > h3 {font-size: 1.5rem; color:#665; margin:1rem 0;}
+
+.menu {margin:0; padding-left:0; display: flex;}
+.menu li {flex:1; list-style-type: none; }
+.menu a {display: block; text-align: center; padding:.5rem; color: #999; text-decoration: none; font-size: 1.3rem; border-bottom:10px solid #ddc;}
+.menu a:hover { text-decoration: underline; border-bottom:10px solid #aa8;}
+.menu a:active, .menu a:focus { outline: none; box-shadow: none;}
+.menu .menuLinkActive { color:#333; cursor: pointer;  pointer-events: none; border-bottom:10px solid #886;}
+
+.formium h1 {display:none;}
+.formium label {display:block; margin:1rem 0 .5rem 0; font-weight: bold; font-size: 1.2rem;}
+.formium input, .formium textarea {border:1px solid #aa9; width:30rem; padding:.5rem; border-radius: 5px;}
+.formium button {border:2px solid #aa9; border-radius:5px; margin:1rem 0; padding:.5rem 2rem; }
+.formium button:hover {background-color: #aa9; border:2px solid #665;}
+
+.list-locations li {list-style-type:square;}
+.list-locations li a {font-size:1.2rem;}
+
+.list-navinlocation {display:flex; }
+.list-navinlocation li {list-style-type:none; padding:.5rem;}
+.list-navinlocation a:hover {text-decoration: underline;}
+
+.footer {text-align: center; background-color: #ffe;}
+.footer a {display:block; padding:.5rem 1rem;}
+.footer a:hover {text-decoration: underline; color:#222;}
+
+@media (min-width:800px) {
+    header {flex-direction: row; justify-content:space-between ;}
+    .menu {flex:1;  max-width:50rem;}
+}
