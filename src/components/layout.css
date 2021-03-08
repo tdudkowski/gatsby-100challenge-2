@@ -28,6 +28,12 @@ main > h3 {font-size: 1.5rem; color:#665; margin:1rem 0;}
 .list-locations li {list-style-type:square;}
 .list-locations li a {font-size:1.2rem;}
 
+.list-shop {display: flex;}
+.list-shop li {list-style-type: none; box-shadow: 3px 3px 6px #eee; margin:1rem 2rem; border:1px solid #ddd; display:flex; flex-direction: column;}
+.list-shop li h3 {background-color: #333; color:#ddd; padding:.5rem 1rem;}
+.list-shop li img {flex:1;}
+.list-shop li p {padding:1rem;}
+
 .list-navinlocation {display:flex; }
 .list-navinlocation li {list-style-type:none; padding:.5rem;}
 .list-navinlocation a:hover {text-decoration: underline;}
