@@ -9,9 +9,16 @@ const IndexPage = () => {
       <Text as="h2">Home</Text>
       <div className="index">
 
-        <Text as="h3">Challenge</Text>
+        <Text as="h3">#100DaysOfGatsby Challenge</Text>
 
-        <Text as="p"><a href="https://www.gatsbyjs.com/blog/100days/">#100DaysOfGatsby</a> Page</Text>
+        <UnorderedList>
+          <ListItem>What it is about - <a href="https://www.gatsbyjs.com/blog/100days/">#100DaysOfGatsby</a> Page</ListItem>
+          <ListItem><a href="https://www.gatsbyjs.com/blog/100days-challenge-1/">Challenge 1: Proof of Concept</a></ListItem>
+          <ListItem><a href="https://www.gatsbyjs.com/blog/challenge-2/">Challenge 2: Website Launch</a></ListItem>
+          <ListItem><a href="https://www.gatsbyjs.com/blog/100days-challenge-3/">Challenge 3: WordPress Blog</a></ListItem>
+          <ListItem><a href="https://www.gatsbyjs.com/blog/100days-challenge-4/">Challenge 4: Shopify Store</a></ListItem>
+        </UnorderedList>
+
 
         <Text as="h4">First - POC & Contentful integration</Text>
 
