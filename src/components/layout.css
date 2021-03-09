@@ -9,15 +9,22 @@ header a {display: block;}
 .link-header {display: flex; border:1px solid #333;}
 
 h1 {margin:0; background-color: #333; color:#ddd; padding: 1rem;}
+main {padding:1rem;}
 main > h2 {font-size:2rem; font-weight: bold; border-bottom:1px solid #ddc; color:#886;}
 main > h3 {font-size: 1.5rem; color:#665; margin:1rem 0;}
 
-.menu {margin:0; padding-left:0; display: flex;}
+.menu {margin:0; padding-left:0; display: flex; flex-direction: column;}
 .menu li {flex:1; list-style-type: none; }
 .menu a {display: block; text-align: center; padding:.5rem; color: #999; text-decoration: none; font-size: 1.3rem; border-bottom:10px solid #ddc;}
 .menu a:hover { text-decoration: underline; border-bottom:10px solid #aa8;}
 .menu a:active, .menu a:focus { outline: none; box-shadow: none;}
 .menu .menuLinkActive { color:#333; cursor: pointer;  pointer-events: none; border-bottom:10px solid #886;}
+
+.index {padding:1rem;}
+.index h3 {font-size:1.3rem; font-weight: bold;}
+.index h4 {font-size:1.1rem; font-weight: bold; border-bottom:1px solid #ddc;}
+.index a {background-color: #ffc; color:#444; text-decoration:underline;}
+.index a:hover {color:#222; background-color: #ffa; }
 
 .formium h1 {display:none;}
 .formium label {display:block; margin:1rem 0 .5rem 0; font-weight: bold; font-size: 1.2rem;}
@@ -28,7 +35,7 @@ main > h3 {font-size: 1.5rem; color:#665; margin:1rem 0;}
 .list-locations li {list-style-type:square;}
 .list-locations li a {font-size:1.2rem;}
 
-.list-shop {display: flex;}
+.list-shop {display: flex; flex-direction: column;}
 .list-shop li {list-style-type: none; box-shadow: 3px 3px 6px #eee; margin:1rem 2rem; border:1px solid #ddd; display:flex; flex-direction: column;}
 .list-shop li h3 {background-color: #333; color:#ddd; padding:.5rem 1rem;}
 .list-shop li img {flex:1;}
@@ -44,5 +51,6 @@ main > h3 {font-size: 1.5rem; color:#665; margin:1rem 0;}
 
 @media (min-width:800px) {
     header {flex-direction: row; justify-content:space-between ;}
-    .menu {flex:1;  max-width:50rem;}
+    .menu {flex:1;  max-width:50rem; flex-direction: row;}
+    .list-shop {flex-direction: row;}
 }
