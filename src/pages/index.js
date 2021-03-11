@@ -13,9 +13,9 @@ const IndexPage = () => {
 
         <UnorderedList>
           <ListItem>What it is about - <a href="https://www.gatsbyjs.com/blog/100days/">#100DaysOfGatsby</a> Page</ListItem>
-          <ListItem><a href="https://www.gatsbyjs.com/blog/100days-challenge-1/">Challenge 1: Proof of Concept</a> -> <a href="https://www.youtube.com/watch?v=rOyE0CTw6Ko">100 Days of Gatsby Challenge 1: Proof of Concept - Solution</a></ListItem>
-          <ListItem><a href="https://www.gatsbyjs.com/blog/challenge-2/">Challenge 2: Website Launch</a> -> <a href="https://www.youtube.com/watch?v=TbgSwfkKIfI">100 Days of Gatsby Challenge 2: Website Launch - Solution</a></ListItem></ListItem>
-        <ListItem><a href="https://www.gatsbyjs.com/blog/100days-challenge-3/">Challenge 3: WordPress Blog</a> -> <a href="https://www.youtube.com/watch?v=JqF_y5RQbF8">The Gatsby WordPress Integration Workshop with Jason Bahl and Shane Thomas</a></ListItem>
+          <ListItem><a href="https://www.gatsbyjs.com/blog/100days-challenge-1/">Challenge 1: Proof of Concept</a> - <a href="https://www.youtube.com/watch?v=rOyE0CTw6Ko">100 Days of Gatsby Challenge 1: Proof of Concept - Solution</a></ListItem>
+          <ListItem><a href="https://www.gatsbyjs.com/blog/challenge-2/">Challenge 2: Website Launch</a> - <a href="https://www.youtube.com/watch?v=TbgSwfkKIfI">100 Days of Gatsby Challenge 2: Website Launch - Solution</a></ListItem></ListItem>
+        <ListItem><a href="https://www.gatsbyjs.com/blog/100days-challenge-3/">Challenge 3: WordPress Blog</a> - <a href="https://www.youtube.com/watch?v=JqF_y5RQbF8">The Gatsby WordPress Integration Workshop with Jason Bahl and Shane Thomas</a></ListItem>
         <ListItem><a href="https://www.gatsbyjs.com/blog/100days-challenge-4/">Challenge 4: Shopify Store</a></ListItem>
         </UnorderedList>
 
