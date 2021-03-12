@@ -36,7 +36,7 @@
     "gatsby-source-formium": "^0.1.1",
     "gatsby-source-graphql": "^3.0.0",
     "gatsby-source-shopify-experimental": "^1.12.3",
-    "gatsby-source-wordpress": "^3.11.0",
+    "gatsby-source-wordpress": "^5.0.0",
     "gatsby-transformer-sharp": "^3.0.0",
     "html-react-parser": "^1.2.4",
     "npm": "^7.6.1",

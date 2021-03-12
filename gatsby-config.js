@@ -45,8 +45,15 @@ module.exports = {
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
         display: `standalone`,
-        icon: `src/images/icon.png`,
+        // icon: `src/images/icon.png`,
         include_favicon: false,
+        icons:
+          [{
+            "src": "src/images/maskable_icon.png",
+            "sizes": "196x196",
+            "type": "image/png",
+            "purpose": "any maskable"
+          }],
       },
     },
     {
